@@ -8,7 +8,7 @@ interface PropTypes {
 
 const ActivationPage = (props: PropTypes) => {
   return (
-    <AuthLayout title="Acara | Activation">
+    <AuthLayout title="Event | Activation">
       <Activation {...props} />
     </AuthLayout>
   );
