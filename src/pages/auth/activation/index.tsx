@@ -1,4 +1,4 @@
-import { AuthLayout } from "@/components/layouts/auth-layout";
+import { AuthLayout } from "@/features/auth/components/layout/auth-layout";
 import Activation from "@/features/auth/components/activation";
 import authServices from "@/features/auth/services/auth.service";
 
