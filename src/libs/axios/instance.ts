@@ -1,4 +1,4 @@
-import environment from "@/config/environment";
+import { env } from "@/config/env";
 import { SessionExtended } from "@/types/Auth";
 import axios from "axios";
 import { getSession } from "next-auth/react";
@@ -8,7 +8,7 @@ const headers = {
 };
 
 const instance = axios.create({
-  baseURL: environment.API_URL,
+  baseURL: env.API_URL,
   headers,
   timeout: 60 * 1000,
 });
